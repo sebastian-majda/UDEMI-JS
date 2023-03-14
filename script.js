@@ -25,4 +25,4 @@ currentCar = "Audi";
 console.log(currentCar);
 const secondName = "Ania";
 let age2 = 24;
-let ulubionyKolor = "czerwony";
+let favColor2 = "czerwony";
