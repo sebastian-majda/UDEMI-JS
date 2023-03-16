@@ -1,27 +1,58 @@
-// const text = "123";
-// console.log(typeof text);
-// const quate = ' He said "ale jazda"';
-// console.log(typeof text);
+// const color = "blue";
+// const newColor = "green";
 
-// const msg = "to jest to";
-// console.log(msg.toUpperCase());
+// if (color === newColor) {
+//   console.log("Kolory się zgadzają");
+// } else {
+//   console.log("Kolory się nie zgadzają");
+// }
 
-// const username = "sebastian";
-// const newUsername = username.charAt(0).toUpperCase() + username.slice(1);
-// console.log(newUsername);
+// const x = 100;
+// const y = 50;
 
-const text1 = "powiększ mnie!";
-console.log(text1.toUpperCase());
-const text2 = "ZAPISZ MNIE MAŁYMI LITERAMI";
-console.log(text2.toLowerCase());
-const text3 = "$#%#^ wytnij te dziwne znaki na początku!";
-console.log(text3.slice(6));
-const text4 = 'sprawdź, czy zawieram słowo "czy"';
-console.log(text4.includes("czy"));
-const text5 =
-  'wyLoguj w konsoli tylko literę "L", która znajduje się w wyrazie "Wyloguj"';
-console.log(text5.charAt(2));
-const text6 = "pies zamień każde słowo pies, na słowo kot pies";
-console.log(text6.replaceAll("pies", "kot"));
-const text7 = "podziel, ten, string, od, przecinków";
-console.log(text7.split(","));
+// if (x > y) {
+//   console.log(`${x} > ${y}`);
+// } else if (x === y) {
+//   console.log(`${x} = ${y}`);
+// } else if (x < y) {
+//   console.log(`${x} < ${y}`);
+// }
+
+// switch
+
+// const promo = "20%";
+
+// switch (promo) {
+//   case "10%":
+//     console.log("dziś mamy 10% RABATU");
+//     break;
+//   case "20%":
+//     console.log("dziś mamy 20% RABATU");
+//     break;
+//   case "30%":
+//     console.log("dziś mamy 30% RABATU");
+//     break;
+//   default:
+//     console.log("error mother fucker");
+// }
+
+// operator warunkowy
+
+// const x = 10;
+// const check =
+//   x % 2 == 0
+//     ? console.log("X jest parzyste")
+//     : console.log("X jest nieparzyste");
+
+const x = -50;
+let text = "";
+
+if (x >= 100) {
+  text = "(X > 100).";
+} else if (x < 100 && x > 30) {
+  text = "X jest średniakiem";
+} else {
+  text = "X jest mały";
+}
+
+console.log(text.toUpperCase());
