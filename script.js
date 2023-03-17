@@ -58,3 +58,12 @@
 
 // colors.splice(-2);
 // console.log(colors);
+
+const numbers = [1, 2, 3, 4];
+const animals = ["pizza", "burger", "sushi"];
+
+const combinedArray = numbers.concat(animals);
+console.log(combinedArray);
+
+const combinedArray2 = [...numbers, ...animals];
+console.log(combinedArray2);
