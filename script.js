@@ -1,58 +1,60 @@
-// const color = "blue";
-// const newColor = "green";
+// const cities = ["gdynia", "sopot", "gdansk", "tczew", "torun"];
 
-// if (color === newColor) {
-//   console.log("Kolory się zgadzają");
-// } else {
-//   console.log("Kolory się nie zgadzają");
+// for (let i = 0; i < cities.length; i++) {
+//   console.log(`To miasto nazywa się ${cities[i].toUpperCase()}`);
 // }
 
-// const x = 100;
-// const y = 50;
-
-// if (x > y) {
-//   console.log(`${x} > ${y}`);
-// } else if (x === y) {
-//   console.log(`${x} = ${y}`);
-// } else if (x < y) {
-//   console.log(`${x} < ${y}`);
+// let x = 0;
+// while (x < 10) {
+//   x = x + 2;
+//   console.log(x);
 // }
 
-// switch
+// let x = 20;
+// do {
+//   // x = x - 3;
+//   x -= 3;
+// } while (x > 0);
+// console.log(x);
 
-// const promo = "20%";
-
-// switch (promo) {
-//   case "10%":
-//     console.log("dziś mamy 10% RABATU");
-//     break;
-//   case "20%":
-//     console.log("dziś mamy 20% RABATU");
-//     break;
-//   case "30%":
-//     console.log("dziś mamy 30% RABATU");
-//     break;
-//   default:
-//     console.log("error mother fucker");
+// Zadanie 4
+// let numbers = [5, 8, 10, 23, 48, 60];
+// for (let number of numbers) {
+//   console.log(number / 5);
 // }
 
-// operator warunkowy
+// dodatkowe
 
-// const x = 10;
-// const check =
-//   x % 2 == 0
-//     ? console.log("X jest parzyste")
-//     : console.log("X jest nieparzyste");
+// let numbers = [5, 8, 10, 23, 48, 60];
+// for (let number of numbers) {
+//   if (number % 2 === 0) {
+//     console.log(
+//       `%cliczba ${number} jest parzysta`,
+//       "background-color:green; color:red"
+//     );
+//   } else {
+//     console.log(`liczba ${number} jest nieparzysta`);
+//   }
+// // }
 
-const x = -50;
-let text = "";
+// numbers.unshift(1, 3, 4);
+// numbers.push(60);
+// numbers.pop();
+// numbers.shift();
+// console.log(numbers);
 
-if (x >= 100) {
-  text = "(X > 100).";
-} else if (x < 100 && x > 30) {
-  text = "X jest średniakiem";
-} else {
-  text = "X jest mały";
-}
+// fu;
+// const numbers = [0, 0, 1, 1, 2, 2, 2];
+// const colors = ["red", "green", "blue", true, 123];
+// const cars = [123, true, "audi", "bmw", "mercedes", "ferrari", "🤷‍♂️", "👀"];
 
-console.log(text.toUpperCase());
+// const numbers2 = numbers.slice(0, 2);
+
+// console.log(numbers2);
+
+// const numbers3 = numbers.slice(2, 4);
+
+// console.log(numbers3);
+
+// colors.splice(-2);
+// console.log(colors);
