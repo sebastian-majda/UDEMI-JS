@@ -105,3 +105,13 @@ if (carsArray.length > 3) {
 }
 
 carsArray.length > 3 ? console.log("jest OK") : console.log("Nie jest OK");
+
+if (carsArray.includes("Audi")) {
+  console.log("IT ICLUDES");
+  carsArray.push("Ford");
+} else {
+  console.log("IT DOES NOT INCLUDE");
+  carsArray.pop();
+}
+
+console.log(carsArray);
