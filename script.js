@@ -1,5 +1,20 @@
-function alibaba(x, y) {
-  console.log(`Czesc mam na imie ${x} i mam ${y} lat.`);
-}
+const add = (x, y) => {
+  const score = x + y;
 
-alibaba("Sebastian", 15);
+  //   if (score % 2 === 0) {
+  //     function1();
+  //   } else {
+  //     function2();
+  //   }
+  score % 2 === 0 ? function1(score) : function2(score);
+};
+
+const function1 = (num) => {
+  console.log(`Liczba ${num} jest parzysta`);
+};
+
+const function2 = (num) => {
+  console.log(`Liczba ${num} jest nieparzysta`);
+};
+
+add(3, 8);
