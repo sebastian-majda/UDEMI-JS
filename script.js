@@ -81,15 +81,27 @@
 //   }
 // }
 
-const colours = ["yellow"];
-colours.push("green");
-colours.unshift("brown");
-console.log(colours);
+// const colours = ["yellow"];
+// colours.push("green");
+// colours.unshift("brown");
+// console.log(colours);
 
-for (let i = 0; i < colours.length; i++) {
-  console.log(
-    `moj ulubiony kolor to ${
-      colours[i].charAt(0).toUpperCase() + colours[i].slice(1)
-    }`
-  );
+// for (let i = 0; i < colours.length; i++) {
+//   console.log(
+//     `moj ulubiony kolor to ${
+//       colours[i].charAt(0).toUpperCase() + colours[i].slice(1)
+//     }`
+//   );
+// }
+
+let cars = "Audi, Mercedes, BMW, Nissan, Dodge";
+
+const carsArray = cars.split(", ");
+
+if (carsArray.length > 3) {
+  console.log("jest OK");
+} else {
+  console.log("Nie jest OK");
 }
+
+carsArray.length > 3 ? console.log("jest OK") : console.log("Nie jest OK");
