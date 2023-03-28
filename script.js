@@ -59,11 +59,24 @@
 // colors.splice(-2);
 // console.log(colors);
 
-const numbers = [1, 2, 3, 4];
-const animals = ["pizza", "burger", "sushi"];
+// const numbers = [1, 2, 3, 4];
+// const animals = ["pizza", "burger", "sushi"];
 
-const combinedArray = numbers.concat(animals);
-console.log(combinedArray);
+// const combinedArray = numbers.concat(animals);
+// console.log(combinedArray);
 
-const combinedArray2 = [...numbers, ...animals];
-console.log(combinedArray2);
+// const combinedArray2 = [...numbers, ...animals];
+// console.log(combinedArray2);
+
+const numbers = [1, 5, 13, 26, 48];
+
+const newNumbers = numbers.map((x) => x * 5);
+console.log(newNumbers);
+
+for (const number of newNumbers) {
+  if (number % 2 === 0) {
+    console.log(`liczba parzyste ${number} `);
+  } else {
+    console.log(`liczba nieparzyste ${number} `);
+  }
+}
