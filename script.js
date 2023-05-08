@@ -1,15 +1,10 @@
-const ulList = document.createElement("ul");
-document.body.appendChild(ulList);
-
-for (let i = 1; i <= 10; i++) {
-  const liItem = document.createElement("li");
-  liItem.textContent = i;
-  ulList.append(liItem);
+const liElements = document.querySelectorAll("li");
+let number = 1;
+for (let i = 0; i < liElements.length; i++) {
+  liElements[i].textContent = number;
+  liElements[i].dataset.id = number;
+  number++;
 }
 
-const LastLi = ulList.querySelector("li:last-child");
-LastLi.textContent = "Jestem ostatnim elementem";
-
-LastLi.style.backgroundColor = "red";
-LastLi.style.backgroundColor = "red";
-LastLi.style.backgroundColor = "red";
+const thirdLi = document.querySelector('[data-id="3"]');
+console.log(thirdLi);
