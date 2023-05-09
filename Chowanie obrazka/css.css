@@ -4,17 +4,17 @@
   align-items: center;
   position: relative;
   background-size: cover;
-  transition: .6s;
+  transition: 0.6s;
 }
 
 .item1 {
-  height: 40px;
-  background-image: url('https://cdn.pixabay.com/photo/2019/06/07/10/44/sunset-4257963_960_720.jpg');
+  height: 0px;
+  background-image: url("rock.jpg");
 }
 
 .item2 {
   height: 300px;
-  background-image: url('https://cdn.pixabay.com/photo/2014/05/03/00/56/summerfield-336672_960_720.jpg');
+  background-image: url("rock.jpg");
   background-position: center;
 }
 
@@ -26,7 +26,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 section {
@@ -44,8 +44,8 @@ button {
   color: #00cfff;
   font-size: 36px;
   cursor: pointer;
-  transition: color .3s, box-shadow .3s;
-  box-shadow: 3px 3px 10px #00cfff
+  transition: color 0.3s, box-shadow 0.3s;
+  box-shadow: 3px 3px 10px #00cfff;
 }
 
 button:hover {
@@ -54,5 +54,5 @@ button:hover {
 }
 
 .fas {
-  transition: transform .6s;
+  transition: transform 0.6s;
 }
