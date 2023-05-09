@@ -7,4 +7,4 @@ for (let i = 0; i < liElements.length; i++) {
 }
 
 const thirdLi = document.querySelector('[data-id="3"]');
-console.log(thirdLi);
+console.log(thirdLid);
