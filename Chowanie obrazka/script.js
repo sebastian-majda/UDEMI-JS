@@ -11,3 +11,5 @@ const showImg = () => {
   }
 };
 arrowBtn.addEventListener("click", showImg);
+ 
+
