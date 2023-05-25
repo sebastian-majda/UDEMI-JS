@@ -22,4 +22,4 @@ const prepareDomEvents = () => {
 };
 
 document.addEventListener("DOMContentLoaded", main);
-//po załadowaniu całej strony, otwór funkcje main
+//po załadowaniu całej strony, otwór funkcje maina
