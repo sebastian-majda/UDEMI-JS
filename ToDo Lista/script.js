@@ -22,4 +22,4 @@ const prepareDomEvents = () => {
 };
 
 document.addEventListener("DOMContentLoaded", main);
-//po załadowaniu całej strony, otwór funkcje maina
+//po załadowaniu całej strony, otwórZY funkcje maina, NIE Wczesmoek. np DOMCONTENTLOADED
