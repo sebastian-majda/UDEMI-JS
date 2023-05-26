@@ -85,7 +85,7 @@ const checkClick = (e) => {
 //   const score = x + y;
 //   showscore(score);
 // };
-// const showscore = (score) => {
+//  const showscore = (score) => {
 //   console.log(`wynik to ${score}`);
 // };
 
