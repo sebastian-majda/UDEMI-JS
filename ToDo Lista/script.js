@@ -20,6 +20,7 @@ const prepareDomElements = () => {
 
 const prepareDomEvents = () => {
   addBtn.addEventListener("click", addNewToDo);
+  ulList.addEventListener("click", checkClick);
   //nadawanie zasłuchiwania
 };
 
@@ -68,6 +69,18 @@ const createToolsArea = () => {
   toolsPanel.append(completeBtn, editBtn, deleteBtn);
 };
 
+//sprawdzanie czy przycisk został wciśniety( atrybut event=e)
+const checkClick = (e) => {
+  if (e.target.matches(".complete")) {
+    console.log("completed");
+    e.target.closest("li").classList.toggle("completed");
+    e.target.classList.toggle("completed");
+  } else if (e.target.matches(".edit")) {
+    console.log("edited");
+  } else if (e.target.matches(".delete")) {
+    console.log("deleted");
+  }
+};
 // const add = (x, y) => {
 //   const score = x + y;
 //   showscore(score);
@@ -79,4 +92,4 @@ const createToolsArea = () => {
 // add(2, 5);
 
 document.addEventListener("DOMContentLoaded", main);
-///po załadowaniu całej strony, otwórZY funkcje maina, NIE Wczesmoek. np DOMCONTENTLOADED
+///po załadowaniu całej strony, otwórZY funkcje maina, NIE Wczesniej
