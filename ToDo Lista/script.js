@@ -86,7 +86,7 @@ const checkClick = (e) => {
 //   showscore(score);
 // };
 //  const showscore = (score) => {
-//   console.log(`wynik to ${score}`);
+//   console.log(`a wynik to ${score}`);
 // };
 
 // add(2, 5);
