@@ -89,7 +89,7 @@ const checkClick = (e) => {
 //   console.log(`a wynik to ${score}`);
 // };
 
-// add(2, 5);
+// add(2, 5) ...;
 
 document.addEventListener("DOMContentLoaded", main);
 ///po załadowaniu całej strony, otwórZY funkcje maina, NIE Wczesniej
