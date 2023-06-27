@@ -81,7 +81,7 @@ const checkClick = (e) => {
     console.log("deleted");
   }
 };
-// const add = (x, y) => {
+/// const add = (x, y) => {
 //   const score = x + y;
 //    showscore(score)jj;
 // };
