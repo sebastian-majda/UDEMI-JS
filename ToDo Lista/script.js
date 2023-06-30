@@ -82,7 +82,7 @@ const checkClick = (e) => {
   }
 };
 /// const add = (x, y) => {
-//   const score = x + y;
+///   const score = x + y;
 //    showscore(score)jj;
 // };
 //  const showscore = (score) => {
