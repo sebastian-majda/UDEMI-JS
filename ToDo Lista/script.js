@@ -83,7 +83,7 @@ const checkClick = (e) => {
 };
 /// const add = (x, y) => {
 ///   const score = x + y;
-//    showscore(score)jj;
+// /   showscore(score)jj;
 // };
 //  const showscore = (score) => {
 //   console.log(`a wynik to ${score}`);
